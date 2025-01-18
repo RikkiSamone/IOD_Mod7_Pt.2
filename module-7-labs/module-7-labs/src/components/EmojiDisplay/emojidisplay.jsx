@@ -6,7 +6,7 @@ function MoodDisplay() {
 
   return <div className="componentBox">
     <h2>The mood is: {mood}</h2>
-  </div>;
+    </div>;
 }
 
 export default MoodDisplay;

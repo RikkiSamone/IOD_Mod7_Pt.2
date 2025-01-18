@@ -6,7 +6,7 @@ function MoodChanger() {
 
   return (
     <div className="MoodChanger componentBox">
-          {/*     <h3>Current Mood: {mood}</h3> */}
+          <h3>Current Mood: {mood}</h3> 
       <button onClick={Cry}>Change</button>
     </div>
   );

@@ -8,10 +8,13 @@ const {theme} = useContext(MyThemeContext);
 return (
     <nav className="NavBar"
         style={{backgroundColor: theme.background, color: theme.foreground}}>
-            <ul className="menu">
+        <ul className="menu">
+                   
                     <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/dash">Dashboard</NavLink></li>
-                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/login">Login</NavLink></li>
+                    <li><NavLink to="/bitcoin">BitCoin Rates</NavLink></li>
+                    <li><NavLink to="/emoji">Emoji Mood Display</NavLink></li>
+            
             </ul> {/* ++ Add another page with route and component */}
     </nav>
 )
